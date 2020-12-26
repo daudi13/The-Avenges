@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 10px;
+    height: 100vh;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 18px;
+    background: url('https://free4kwallpapers.com/uploads/originals/2019/08/25/hulk---age-of-utron-wallpaper.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-image {
+    display: block;
+    background: url('https://bgr.com/wp-content/uploads/2019/12/marvel-avengers.jpg?quality=70&strip=all&w=834');
+    min-height: 550px;
+    opacity: 0.9;
+    position: relative;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0 0 10px 10px;
+}
+
+.hero-text {
+    position: absolute;
+    color: #fff;
+    width: 100%;
+    top: 70%;
+}
+
+h3 {
+    font-family: 'Bangers', cursive;
+}
+
+.pimg2 {
+    background: url('https://lh3.googleusercontent.com/proxy/12iGlBbn7COJzEy7qwrS95sQ1XmO6u4XBF0dQJR1gm00NuzTyq6--OS9PYU1M30dwnugCWhx5sugphJrP1cxiiKfszhVD4t3xLrNUNfE6xmct6LWE-gXgYeIJTURv0gqCzVFoQ');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    min-height: 600px;
+    margin-top: 2rem;
+    opacity: 0.9;
+    border-radius: 10px;
+}
+
+.text {
+    position: absolute;
+    left: 40%;
+    padding: 20px;
+    color: #fff;
+    overflow: hidden;
+    height: 600px;
+    text-align: justify;
+    font-size: 15px;
+}
+
+
+.pimg3 {
+    background: url('https://wallpaperstock.net/wallpapers/thumbs1/37533hd.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    min-height: 600px;
+    opacity: 0.9;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+}
+
+.text-2 {
+    color: #fff;
+    position: absolute;
+    right: 60%;
+    padding: 20px;
+    height: 600px;
+    overflow: hidden;
+    text-align: justify;
+    font-size: 15px;
+}
