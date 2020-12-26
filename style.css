@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+:root {
+    --bs:0.25em 0.25em 0.75em rgba(0,0,0,0.25), 0.125em 0.125em 0.125em rgba(0, 0, 0, 0.15);
+}
+
 body {
     margin: 10px;
     height: 100vh;
@@ -14,6 +18,12 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+nav {
+    border-radius: 10px 10px 0 0 ;
+    position: sticky;
+
 }
 
 .hero-image {
@@ -34,6 +44,7 @@ body {
     color: #fff;
     width: 100%;
     top: 70%;
+    
 }
 
 h3 {
@@ -41,7 +52,7 @@ h3 {
 }
 
 .pimg2 {
-    background: url('https://lh3.googleusercontent.com/proxy/12iGlBbn7COJzEy7qwrS95sQ1XmO6u4XBF0dQJR1gm00NuzTyq6--OS9PYU1M30dwnugCWhx5sugphJrP1cxiiKfszhVD4t3xLrNUNfE6xmct6LWE-gXgYeIJTURv0gqCzVFoQ');
+    background: url('https://wallpaperaccess.com/full/38427.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -89,3 +100,38 @@ h3 {
     text-align: justify;
     font-size: 15px;
 }
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+    background-color: rgba(0,0,0,0.9);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.footer h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+@media (max-width: 900px) {
+    .footer {
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        align-content:  center;
+    }
+}
+
+
