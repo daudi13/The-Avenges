@@ -23,6 +23,7 @@ body {
 nav {
     border-radius: 10px 10px 0 0 ;
     position: sticky;
+    width: 100%;
 
 }
 
@@ -30,6 +31,8 @@ nav {
     display: block;
     background: url('https://bgr.com/wp-content/uploads/2019/12/marvel-avengers.jpg?quality=70&strip=all&w=834');
     min-height: 550px;
+    width: 98%;
+    margin: 0 auto;
     opacity: 0.9;
     position: relative;
     background-size: cover;
@@ -126,11 +129,24 @@ a {
     color: #fff;
 }
 
+
 @media (max-width: 900px) {
+    
+
     .footer {
         grid-template-columns: repeat(1, 1fr);
         justify-items: center;
         align-content:  center;
+    }
+
+    .pimg2, .pimg3 {
+        background: none;
+        background-color: rgba(0,0,0,0.9);
+    }
+
+    .text, .text-2 {
+        width: 100%;
+        left: 0;
     }
 }
 
