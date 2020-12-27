@@ -129,9 +129,56 @@ a {
     color: #fff;
 }
 
+.email-form {
+    position: relative;
+    width: 100%;
+    border-radius: 20px;
+    background: #555;
+    margin-top: 1rem;
+    line-height: 0;
+}
+
+.email-form .form-control {
+    display: inline-block;
+    height: 45px;
+    background: transparent;
+    padding: 0 3rem 0 1.5rem;
+    text-align: center;
+    margin: 0;
+    font-family: inherit;
+    font-size: 1rem;
+    border: 0;
+    outline: 0;
+    color: #ddd;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.form-control-submit {
+    display: inline-block;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+    text-align: center;
+    border: 0;
+    outline: 0;
+    color: #333;
+    font-size: 1rem;
+    background-color: #eee;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    top: 0;
+    right: 0;
+}
+
 
 @media (max-width: 900px) {
-    
+    .hero-text h1 {
+        font-size: 18px;
+    }
 
     .footer {
         grid-template-columns: repeat(1, 1fr);
@@ -142,6 +189,7 @@ a {
     .pimg2, .pimg3 {
         background: none;
         background-color: rgba(0,0,0,0.9);
+        height: 100%;
     }
 
     .text, .text-2 {
